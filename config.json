@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "years_experience": 4.3,
+    "pay_floor_fpa": 100000,
+    "pay_floor_strategy": 120000,
+    "accepted_metros": ["gainesville", "miami", "orlando", "lake nona"],
+    "max_travel_percent": 50,
+    "max_age_days": 14
+  },
+  "title_include": ["fp&a", "financial planning", "strategic finance", "finance manager", "finance lead", "finance business partner", "business partner", "corporate development", "strategy", "strategic", "transformation", "consultant", "finance transformation", "market finance"],
+  "title_exclude": ["intern", "accountant", "controller", "tax ", "audit", "engineer", "nurse", "physician", "sales", "account executive", "recruiter", "payroll", "billing", "coder", "pharmacist", "clinical"],
+  "healthcare_words": ["health", "healthcare", "hospital", "clinic", "provider", "payer", "medicare", "medicaid", "patient", "care delivery", "pharmacy", "value-based"],
+  "exposure_companies": ["optum", "unitedhealth", "sca health", "surgical care affiliates", "optumrx", "amedisys", "lhc group"],
+  "sources": {
+    "greenhouse": [
+      {"name": "Cityblock Health", "slug": "cityblockhealth"},
+      {"name": "Oscar Health", "slug": "oscar"},
+      {"name": "Devoted Health", "slug": "devoted"},
+      {"name": "Included Health", "slug": "includedhealth"}
+    ],
+    "lever": [
+      {"name": "Example Lever Company (replace)", "slug": "replace-me"}
+    ],
+    "ashby": [
+      {"name": "Example Ashby Company (replace)", "slug": "replace-me"}
+    ],
+    "workday": [
+      {"name": "Humana", "host": "humana.wd5.myworkdayjobs.com", "tenant": "humana", "site": "Humana_External_Career_Site"},
+      {"name": "CVS Health", "host": "cvshealth.wd1.myworkdayjobs.com", "tenant": "cvshealth", "site": "CVS_Health_Careers"},
+      {"name": "Centene", "host": "centene.wd5.myworkdayjobs.com", "tenant": "centene", "site": "Centene_External"}
+    ],
+    "workday_search_terms": ["FP&A", "strategic finance", "finance manager", "strategy consultant", "corporate development", "finance transformation"],
+    "adzuna": {
+      "enabled": true,
+      "queries": ["FP&A manager healthcare", "strategic finance manager healthcare", "corporate development healthcare", "healthcare strategy consultant", "finance business partner healthcare"],
+      "country": "us",
+      "max_days_old": 5
+    }
+  }
+}
